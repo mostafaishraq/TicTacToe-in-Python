@@ -4,10 +4,7 @@
 # In[ ]:
 
 
-from IPython.display import clear_output
-
 def display_board(board):
-    clear_output()
     
     print(board[7]+' | '+board[8]+' | '+board[9])
     print('--|---|--')
